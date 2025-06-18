@@ -53,15 +53,15 @@
    --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls
 5. Run the file and enjoy your calculator!
    
-📌 Future Improvements
- 🧮 Add scientific calculator features
- 🌓 Add dark/light theme toggle
- ⌨️ Keyboard input support
- 🔢 Show full expression above result
+## 📌 Future Improvements
+ - 🧮 Add scientific calculator features
+ - 🌓 Add dark/light theme toggle
+ - ⌨️ Keyboard input support
+ - 🔢 Show full expression above result
 
-👨‍💻 Developer
-Chaithravardhan Reddy Chepati
-📬 chepatichaithravardhanreddy@gmail.com
+## 👨‍💻 Developer
+** Chaithravardhan Reddy Chepati **
+ - 📬 chepatichaithravardhanreddy@gmail.com
 
-🌟 Like this project?
-Give it a ⭐ on GitHub or share it with others who are learning JavaFX!
+## 🌟 Like this project?
+- Give it a ⭐ on GitHub or share it with others who are learning JavaFX!
