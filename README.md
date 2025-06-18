@@ -15,7 +15,7 @@ A basic calculator built with JavaFX that performs:
 - Real-time input validation
 - User-friendly button-based interface
 
-📁 [Go to Calculator Project](/.Calculator Project/)
+📁 [Go to Calculator Project](/.Calculator-Project/)
 
 ---
 
