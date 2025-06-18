@@ -1,97 +1,67 @@
-# 📝 JavaFX To-Do List App
+# 🔢 JavaFX Calculator App
 
-![JavaFX](https://img.shields.io/badge/JavaFX-GUI-blue) ![Status](https://img.shields.io/badge/Project-Complete-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![JavaFX](https://img.shields.io/badge/JavaFX-UI-blue) ![Status](https://img.shields.io/badge/Project-Complete-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-> A sleek and simple To-Do List desktop application built using JavaFX.  
-> Manage your tasks efficiently with a smooth and interactive user interface.
+> A sleek and interactive calculator desktop app built with JavaFX.
+> Perform basic arithmetic operations using a clean and intuitive user interface.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add tasks instantly
-- 🗑️ Delete selected tasks
-- 📋 Dynamic task list view
-- 💡 Clean and responsive layout
-- ⚡ Lightweight and fast desktop app
+- ✳️ Addition, Subtraction, Multiplication, Division
+- 🧹 Clear button to reset input
+- 💡 Simple layout using `GridPane`
+- ⚡ Fast, lightweight, responsive
 
 ---
 
 ## 📸 Screenshot
 
-> Add an image named `todo_screenshot.png` in the same directory as this README.
+> To display your own image, save it as `calculator_screenshot.png` and place it in the same directory.
 
-![To-Do List Screenshot](./todo_screenshot.png)
+![Calculator Screenshot](./calculator_screenshot.png)
 
 ---
 
 ## 🎯 Technologies Used
 
-| Technology      | Role                     |
-|-----------------|--------------------------|
-| Java            | Core programming language |
-| JavaFX          | GUI development framework |
-| ObservableList  | Real-time list updates    |
-| ListView        | Task visualization        |
+| Technology | Purpose                 |
+|------------|-------------------------|
+| Java       | Core application logic  |
+| JavaFX     | UI framework for Java   |
+| GridPane   | Responsive layout       |
+| Scene/Stage| GUI structure           |
 
 ---
 
 ## 🛠️ How to Run
 
-### 📥 Prerequisites
+### 📥 Requirements
 
-- Java JDK 11 or higher
+- Java JDK 11+
 - JavaFX SDK ([Download from OpenJFX](https://openjfx.io))
 
-### ▶️ Run Instructions
+### ▶️ Run Steps
 
-1. Download the project files.
-2. Configure JavaFX SDK in your IDE (Eclipse/IntelliJ/VSCode).
-3. Add the following VM options when running:
+1. Save the code below as `CalculatorApp.java`.
+2. Open it in your IDE (Eclipse, IntelliJ, VS Code, etc.).
+3. Add JavaFX library in your build path.
+4. Add VM options:
 
---module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
+   ```bash
+   --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls
+5. Run the file and enjoy your calculator!
+   
+📌 Future Improvements
+ 🧮 Add scientific calculator features
+ 🌓 Add dark/light theme toggle
+ ⌨️ Keyboard input support
+ 🔢 Show full expression above result
 
-4. Run the `TodoListApp.java` file.
+👨‍💻 Developer
+Chaithravardhan Reddy Chepati
+📬 chepatichaithravardhanreddy@gmail.com
 
----
-
-## 🔍 How It Works
-
-- Input from a `TextField`
-- Tasks stored in `ObservableList`
-- Displayed in a `ListView`
-- Button actions handle adding/removing items from the list
-
----
-
-## 📁 Project Structure
-
-TodoListApp/
-├── TodoListApp.java
-├── README.md
-└── todo_screenshot.png
-
-
----
-
-## 📌 Potential Enhancements
-
-- ✅ Save/load tasks from a file
-- 🔔 Add reminders or alarms
-- 🌙 Dark mode/theme toggle
-- ☑️ Task completion checkboxes
-- 📤 Export tasks to file
-
----
-
-## 👨‍💻 Developer
-
-**Chaithravardhan Reddy Chepati**  
-📧 [chepatichaithravardhanreddy@gmail.com](mailto:chepatichaithravardhanreddy@gmail.com)
-
----
-
-## 🌟 Support
-
-If you like this project, give it a ⭐ and share it with others!
-
+🌟 Like this project?
+Give it a ⭐ on GitHub or share it with others who are learning JavaFX!
