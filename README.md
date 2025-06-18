@@ -15,7 +15,7 @@ A basic calculator built with JavaFX that performs:
 - Real-time input validation
 - User-friendly button-based interface
 
-📁 [Go to Calculator Project](/.Calculator-Project/)
+📁 [Go to Calculator Project](./Calculator_Project/)
 
 ---
 
@@ -25,6 +25,6 @@ A JavaFX-based To-Do list manager with:
 - Simple and clean user interface
 - Real-time updates to the task list
 
-📁 [Go to To-Do List Project](./todo-list-app/)
+📁 [Go to To-Do List Project](./TodoListApp/)
 
 ---
