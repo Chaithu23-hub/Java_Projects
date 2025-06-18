@@ -1,25 +1,26 @@
+
 # 📝 JavaFX To-Do List App
 
 ![JavaFX](https://img.shields.io/badge/JavaFX-GUI-blue) ![Status](https://img.shields.io/badge/Project-Complete-brightgreen) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-> A simple yet elegant To-Do List desktop application built using JavaFX.  
-> Helps you manage tasks with ease — add, view, and delete tasks with a clean UI.
+> A sleek and simple To-Do List desktop application built using JavaFX.  
+> Manage your tasks efficiently with a smooth and interactive user interface.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add new tasks to your list  
-- 🗑️ Delete selected tasks  
-- 📋 View all tasks in a scrollable list  
-- 💡 Clean and intuitive layout  
-- ⚡ Fast and lightweight desktop app
+- ➕ Add tasks instantly
+- 🗑️ Delete selected tasks
+- 📋 Dynamic task list view
+- 💡 Clean and responsive layout
+- ⚡ Lightweight and fast desktop app
 
 ---
 
 ## 📸 Screenshot
 
-> _(Add a screenshot named `todo_screenshot.png` in the same folder)_
+> Add an image named `todo_screenshot.png` in the same directory as this README.
 
 ![To-Do List Screenshot](./todo_screenshot.png)
 
@@ -27,25 +28,70 @@
 
 ## 🎯 Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Java       | Core language |
-| JavaFX     | GUI framework |
-| ObservableList | Dynamic task list updates |
-| ListView   | Displays tasks interactively |
+| Technology      | Role                     |
+|-----------------|--------------------------|
+| Java            | Core programming language |
+| JavaFX          | GUI development framework |
+| ObservableList  | Real-time list updates    |
+| ListView        | Task visualization        |
 
 ---
 
-## 🛠 How to Run
+## 🛠️ How to Run
 
 ### 📥 Prerequisites
 
-- Java 11 or higher
-- JavaFX SDK (download from [https://openjfx.io](https://openjfx.io))
+- Java JDK 11 or higher
+- JavaFX SDK ([Download from OpenJFX](https://openjfx.io))
 
 ### ▶️ Run Instructions
 
-1. Clone or download the project.
-2. Set up your JavaFX SDK in your IDE (Eclipse/IntelliJ/VSCode).
-3. Use the following VM arguments when running:
+1. Download the project files.
+2. Configure JavaFX SDK in your IDE (Eclipse/IntelliJ/VSCode).
+3. Add the following VM options when running:
 
+--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
+
+4. Run the `TodoListApp.java` file.
+
+---
+
+## 🔍 How It Works
+
+- Input from a `TextField`
+- Tasks stored in `ObservableList`
+- Displayed in a `ListView`
+- Button actions handle adding/removing items from the list
+
+---
+
+## 📁 Project Structure
+
+TodoListApp/
+├── TodoListApp.java
+├── README.md
+└── todo_screenshot.png
+
+
+---
+
+## 📌 Potential Enhancements
+
+- ✅ Save/load tasks from a file
+- 🔔 Add reminders or alarms
+- 🌙 Dark mode/theme toggle
+- ☑️ Task completion checkboxes
+- 📤 Export tasks to file
+
+---
+
+## 👨‍💻 Developer
+
+**Chaithravardhan Reddy Chepati**  
+📧 [chepatichaithravardhanreddy@gmail.com](mailto:chepatichaithravardhanreddy@gmail.com)
+
+---
+
+## 🌟 Support
+
+If you like this project, give it a ⭐ and share it with others!
