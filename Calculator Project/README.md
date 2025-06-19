@@ -16,11 +16,10 @@
 
 ---
 
-## 📸 Screenshot
+## 📸 Application UI Preview
 
-> To display your own image, save it as `calculator_screenshot.png` and place it in the same directory.
 
-![Calculator Screenshot](./calculator_screenshot.png)
+![Calculator Screenshot](./Screenshot.jpg)
 
 ---
 
